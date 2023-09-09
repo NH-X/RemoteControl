@@ -2,7 +2,7 @@ package com.example.remotecontrol
 
 import android.app.Application
 
-object MyApplication: Application() {
+class MyApplication: Application() {
     private val TAG = "MyApplication"
 
     override fun onCreate() {
